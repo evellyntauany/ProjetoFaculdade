@@ -25,7 +25,7 @@ public class Quarto {
         return preco;
     }
 
-    public boolean getcomTv() {
+    public boolean getComTv() {
         return comTv;
     }
 
@@ -45,13 +45,13 @@ public class Quarto {
             return this;
         }
 
-        public Builder setPreco(int preco) {
+        public Builder setPreco(double preco) {
             this.preco = preco;
             return this;
         }
 
-        public Builder comTv() {
-            this.comTv = true; // Define que o quarto terá TV
+        public Builder comTv(boolean tv) {
+            this.comTv = tv; // Define que o quarto terá TV
             return this;
         }
 
